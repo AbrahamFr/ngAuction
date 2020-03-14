@@ -11,6 +11,7 @@ import { ProductItemComponent } from './product-item/product-item.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { SearchComponent } from './search/search.component';
 import { StarsComponent } from './stars/stars.component';
+import { MissingFileComponent } from './missing-file/missing-file.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { StarsComponent } from './stars/stars.component';
     ProductItemComponent,
     ProductDetailComponent,
     SearchComponent,
-    StarsComponent
+    StarsComponent,
+    MissingFileComponent
   ],
   imports: [
     BrowserModule,
