@@ -8,7 +8,7 @@ import { MissingFileComponent } from './missing-file/missing-file.component';
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'product', component: ProductDetailComponent},
-  ( path: '**', component: MissingFileComponent),
+  { path: '**', component: MissingFileComponent},
 ];
 
 @NgModule({
